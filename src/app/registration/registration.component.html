@@ -1,0 +1,34 @@
+<br>
+<br>
+<div [hidden]="submitted" >
+<div class="container">
+    <h2>Zarejestruj się</h2>
+    <br>
+ <form (ngSubmit)="onSubmit()" class="form-horizontal">
+
+    <div class="form-group">
+        <label for="name">Imię</label>
+        <input type="text" class="form-control" id="firstName" required [(ngModel)]="customer.firstName" name="firstName">
+      </div>
+  
+      <div class="form-group">
+        <label for="name">Nazwisko</label>
+        <input type="text" class="form-control" id="lastName" required [(ngModel)]="customer.lastName" name="lastName">
+      </div>
+  
+      <div class="form-group">
+        <label for="name">Nr telefonu</label>
+        <input type="text" class="form-control" id="phone" required [(ngModel)]="customer.phone" name="phone">
+      </div>
+  
+      <div class="form-group">
+          <label for="name">Email</label>
+          <input type="text" class="form-control" id="email" required [(ngModel)]="customer.email" name="email">
+        </div>
+        
+  
+      <button type="submit" class="btn btn-success">Zarejestruj</button>
+      
+    </form>
+</div>
+</div>

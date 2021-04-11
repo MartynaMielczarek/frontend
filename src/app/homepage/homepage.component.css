@@ -1,0 +1,98 @@
+
+
+.fakeimg {
+    width: 200%;
+    height: auto;
+    background-color: white;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    /* Chrome, Safari, Opera */
+    backface-visibility: hidden;
+  } 
+  
+  
+  .fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    margin: 7px 7px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+
+  .grafik {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 310px;
+  }
+  
+  .grafik:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+
+  .image-container {
+    background-image: url("/assets/sky.jpg"); 
+    background-size: cover;
+    position: relative; 
+    height: 170px; /* Some height */
+  }
+  
+  .text {
+    background-color: white;
+    color: black;
+    font-size: 7vw; /* Responsive font size */
+    font-weight: bold;
+    margin: 0 auto; /* Center the text container */
+    padding: 5px;
+    width: 50%;
+    text-align: center; /* Center text */
+    position: absolute; /* Position text */
+    top: 50%; /* Position text in the middle */
+    left: 50%; /* Position text in the middle */
+    transform: translate(-50%, -50%); /* Position text in the middle */
+    mix-blend-mode: screen; /* This makes the cutout text possible */
+  }
+  .col-sm-8{
+    margin-left: 550px;
+    margin-top: -550px;
+  }
+  .container p{
+    text-align: justify;
+  }
+  .footer {
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    background-color:#333333;
+    color: white;
+    text-align: center;
+ }
+ .footer a{
+   margin-top: px;
+ }
+ .navbar navbar-expand-sm bg-dark navbar-dark{
+  background-color: #333333;
+ }

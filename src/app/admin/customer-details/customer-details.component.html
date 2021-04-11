@@ -1,0 +1,31 @@
+<div class="container">
+<div class="panel panel-primary">
+  <br>
+  <div class="panel-heading"><h2>Customer Details</h2> 
+  </div>
+
+<br>
+<hr/>
+<div *ngIf="customer">
+  <div>
+    <label><b>First Name: </b></label> {{customer.firstName}}
+  </div>
+  <div>
+    <label><b>Last Name: </b></label> {{customer.lastName}}
+  </div>
+  <div>
+    <label><b>Phone: </b></label> {{customer.phone}}
+  </div>  
+  <div>
+    <label><b>Email : </b></label> {{customer.email}}
+  </div> 
+  <div>
+    <label><b>Zajęcia : </b></label> {{customer.activity}}
+  </div>  
+</div>
+
+<br>
+<br>
+<button (click)="list()" class="btn btn-primary">Powrót do listy użytkowników</button><br>
+</div>
+</div>
